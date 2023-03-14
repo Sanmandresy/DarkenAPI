@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class PingController {
-    @GetMapping("/")
-    public String Response(){
-        return "Hello from the API.";
-    }
+  @GetMapping("/")
+  public String Response() {
+    return "Hello from the API.";
+  }
 }
